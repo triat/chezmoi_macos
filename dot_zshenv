@@ -1,0 +1,5 @@
+# Colorize man page
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export ZELLIJ_AUTO_ATTACH=true
+
+export PATH=~/.local/bin:$PATH

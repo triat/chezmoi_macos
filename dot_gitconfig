@@ -1,0 +1,43 @@
+[user]
+  name = Tom Riat
+  email = tom@riat.dev
+[includeIf "gitdir:~/Dev/taurusgroup/"]
+  path = ~/Dev/taurusgroup/.gitconfig
+[include]
+  path = ~/.themes.gitconfig
+[github]
+  user = triat
+[core]
+  excludesfile = /Users/tomriat/.gitignore_global
+  pager = delta
+  editor = nvim
+[delta]
+  features = calochortus-lyallii
+[commit]
+  template = /Users/tomriat/.gitmessage
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  required = true
+  process = git-lfs filter-process
+[interactive]
+  diffFilter = delta --color-only
+[pull]
+  rebase = merges
+[push]
+  default = simple
+[merge]
+  ff = false
+[alias]
+  co = checkout
+  br = branch -vv
+  last = log -1 HEAD
+  tree = log --graph --oneline
+  com = commit -m
+  sw = switch
+  swc = switch -c
+  pushf = push --force-with-lease
+[help]
+  autocorrect = prompt
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/

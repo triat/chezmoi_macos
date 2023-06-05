@@ -1,0 +1,59 @@
+# IDE
+#----
+*.sublime*
+*.tags*
+*.tags_sorted_by_file
+*.vscode
+
+##
+# Mac stuff
+*.DS_Store
+
+# Development
+#------------
+env/
+pip/
+tmp-projects/
+.idea/
+.tests_timing.json
+Guardfile
+mesh-example/
+.python-version
+
+# Code validation
+#----------------
+.cache
+.coverage
+htmlcov
+doc/build
+*.log
+*.lock
+**package-json.lock
+.pytest_cache
+
+# Backend
+#--------
+*.back*
+*.pyc
+*.bak
+*~
+*.pyo
+*.orig
+local.py
+config.rb~
+.settings/
+local_settings.py
+
+# FrontEnd
+#---------
+.sass-cache/
+node_modules/
+
+# VM
+#---------
+.vagrant/
+
+# Security
+#---------
+*.pem
+~/.ssh/*
