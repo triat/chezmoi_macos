@@ -33,3 +33,4 @@ export LANG=en_US.UTF-8
 [ -f ~/.config/zsh/zellij.zsh ] && source ~/.config/zsh/zellij.zsh
 [ -f ~/.config/zsh/utils.zsh ] && source ~/.config/zsh/utils.zsh
 [ -f ~/.config/zsh/env.zsh ] && source ~/.config/zsh/env.zsh
+[ -f ~/.config/zsh/openshift-cli.zsh ] && source ~/.config/zsh/openshift-cli.zsh
