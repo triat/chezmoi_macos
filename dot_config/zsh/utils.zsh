@@ -9,6 +9,7 @@ alias cp='cp -iv'
 alias ll="ls -lah"
 alias cat='bat'
 alias vim='nvim'
+alias kub='kubectl'
 
 extract () {
     if [ -f $1 ] ; then
