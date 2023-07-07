@@ -33,6 +33,7 @@ export LANG=en_US.UTF-8
 [ -f ~/.config/zsh/env.zsh ] && source ~/.config/zsh/env.zsh
 [ -f ~/.config/zsh/taurus.zsh ] && source ~/.config/zsh/taurus.zsh
 [ -f ~/.config/zsh/git.zsh ] && source ~/.config/zsh/git.zsh
+[ -f ~/.config/zsh/kubernetes.zsh ] && source ~/.config/zsh/kubernetes.zsh
 [ -f ~/.config/zsh/zellij.zsh ] && source ~/.config/zsh/zellij.zsh
 [ -f ~/.config/zsh/utils.zsh ] && source ~/.config/zsh/utils.zsh
 [ -f ~/.config/zsh/openshift-cli.zsh ] && source ~/.config/zsh/openshift-cli.zsh
